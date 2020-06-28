@@ -23,10 +23,10 @@ public class LoopHoWTask4 {
 		//1 way 
 		
 		for(int i=20; i<=50; i++) {
-			System.out.println(i);
+			System.out.print(i);
 			
 			if (i%2==1) {
-				System.out.println(i); 
+				System.out.print(i); 
 				
 			}	
 		}

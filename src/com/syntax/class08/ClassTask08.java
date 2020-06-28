@@ -25,7 +25,7 @@ public class ClassTask08 {
 		
 		
 		for(int a= 1; a<=10; a++) {
-			System.out.println("Do you want applay for credit card");
+			System.out.println("Do you want applay for credit card?");
 			String answer = scan.nextLine();
 			
 			if (answer.equalsIgnoreCase("yes")) {
