@@ -6,7 +6,7 @@ public class HomeWorkT3 {
 	public static void main(String[] args) {
 		//1. Create a String and print it in reverse order (Sunday → yadnuS).
 		
-		String day = "Sunday";
+      String day = "Sunday";
 		
 		String newString="";
 		
