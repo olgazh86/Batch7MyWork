@@ -21,6 +21,9 @@ public class WriteIntoNewExcel {
 		
 		FileOutputStream fos = new FileOutputStream(filePath);
 		wbook.write(fos);
+		
+		wbook.close();
+		fos.close();
 
 
 	}

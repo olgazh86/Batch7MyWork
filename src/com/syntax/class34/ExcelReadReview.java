@@ -13,7 +13,7 @@ public class ExcelReadReview {
 
 	public static void main(String[] args) throws IOException {
 		
-		String xlFile= System.getProperty("user.dir")+"/testdata/SampleTestData.xlsx";
+		String xlFile= System.getProperty("user.dir")+"/testdata/Sample.xlsx";
 		
 		FileInputStream fis = new FileInputStream(xlFile);
 		

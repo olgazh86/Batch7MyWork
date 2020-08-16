@@ -13,7 +13,7 @@ public class WriteIntoExcel {
 //getting data from existing file and writing into new
 	public static void main(String[] args) throws IOException {
 
-		String xlFile = System.getProperty("user.dir") + "/testdata/SampleTestData.xlsx";
+		String xlFile = System.getProperty("user.dir") + "/testdata/Sample.xlsx";
 
 		FileInputStream fis = new FileInputStream(xlFile);//this line take value from existen file
 		
@@ -31,6 +31,10 @@ public class WriteIntoExcel {
 		
 		FileOutputStream fos = new FileOutputStream(newXl);
 		book.write(fos);
+		
+		book.close();
+		fis.close();
+		fos.close();
 
 	}
 
